@@ -27,7 +27,7 @@ bool checkPalindrome(int n) {
 }
 
 int main() {
-    int n = 10;
+    int n = -121;
     bool res = checkPalindrome(n);
     cout << (res ? "True" : "False") << endl;
     return 0;
